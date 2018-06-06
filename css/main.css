@@ -1,0 +1,121 @@
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 1900px;
+    height: 750px;
+    background: #3a3e64 url("../image/header/bgimg.jpg") no-repeat center;
+    background-size: cover; 
+}
+
+.header_navigation {
+    width: 1170px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.header_icon {
+    float: left;
+    height: 100px;
+    width: 270px;
+    position: relative;
+}
+
+.header_icon img {
+    position: absolute;               
+    top: 50%;                        
+    transform: translate(0, -50%);
+}
+
+.header_menu {
+    width: 600px;
+    height: 100px;
+    float: right;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+}
+
+.header_menu ul {
+    list-style: none;
+    position: absolute;               
+    top: 50%;                        
+    transform: translate(0, -50%);
+}
+
+.header_menu  li {
+    float: right;
+    margin-left: 60px;
+    text-transform: uppercase;
+}
+
+.header_menu .last {
+    margin-left: 0;
+}
+
+.header_menu a:hover {
+    color: yellow;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.header_content {
+    width: 1170px;
+    height: 650px;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header_title {
+    font-size: 65px;
+    line-height: 71px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.header_slogan {
+    font-size: 22px;
+    line-height: 33px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 80px;
+}
+
+.header_button {
+    width: 200px;
+    background-color: #e84545;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-radius: 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header_button a {
+    display: block;
+    height: 100%;
+}
+
+.header_button:hover {
+    background-color: #FFF;
+}
+
+.header_button:hover a {
+    background-color: #FFF;
+    color: #e84545;
+}
