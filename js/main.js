@@ -6,6 +6,7 @@ $(document).ready(function(){
         autoplay:true, //Автозапуск слайдера
         smartSpeed:2000, //Время движения слайда
         autoplayTimeout:5000, //Время смены слайда
-        nav: false
+        nav: false,
+        dotsEach: true
     });
 });
